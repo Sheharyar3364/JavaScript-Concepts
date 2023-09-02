@@ -13,7 +13,7 @@ const id = Symbol('123');
 const anotherId = Symbol('123');
 
 console.log(id, anotherId);
-console.log(typeof id, anotherId)
+console.log(typeof id, typeof anotherId)
 
 const bignum = 12345678912345n;
 console.log(typeof bignum);
